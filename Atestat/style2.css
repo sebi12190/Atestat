@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    position: relative;
+}
+.navtext{
+    position: absolute;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+ul{
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10%;
+}
+.font{
+    font-family: "Orbitron";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.font1{
+    font-family: "Times New Roman", Times, serif;
+}
+li{
+    display: inline-block;
+    padding: 0px 120px;
+    margin-top: 10px;
+}
+li a:hover{
+   color: grey;
+}
+.linies{
+    margin-top: -40px;
+    background-color: white;
+    width: 600px;
+    height: 2px;
+    margin-left: 150px;
+}
+.linied{
+    margin-top: 0px;
+    background-color: white;
+    width: 600px;
+    height: 2px;
+    margin-left: 1100px;
+
+}
+.fundals{
+    height: auto;
+    width: 100%;
+    pointer-events: none;
+}
+.bara{
+    margin-top: -10px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.spatiu{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}
+.spatiun{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+.png{
+    background-color: black;
+}
+.bot{
+    background-color: darkgrey;
+    height: 150px;
+    width: auto;
+    margin-top: -10px;
+}
+.masina{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    margin-top: -1100px;
+    margin-left: 70px;
+}
+.text{
+    position: absolute;
+    padding-left: 100px;
+    font-size: 27px;
+    font-family: "Orbitron";
+    padding-bottom: 10px;
+}
+.logo2{
+    position: absolute;
+    margin-top: -1000px;
+    height: 300px;
+    width: auto;
+    margin-left: 1400px;
+
+}
+.text2{
+    font-family: "Orbitron";
+    position: absolute;
+    font-size: 27px;
+    color: white;
+    margin-top: -700px;
+}
